@@ -1,0 +1,60 @@
+/* Дописанные мною стили для дополнительных блоков сайта */
+
+.arenda_benefits {
+    background: #f2f2f2;
+}
+
+/* Стилизация страницы /CARDS */
+
+.cards_card {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    position: relative;
+    height: 400px;
+    max-width: 250px;
+    background: #f2f2f2;
+    border-radius: 40px;
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15), inset -5px -5px 15px rgba(255, 255, 255, 0.15), 5px 5px 15px rgba(0, 0, 0, 0.15), -5px -5px 15px rgba(255, 255, 255, 0.15);
+}
+
+.cards_card_translation {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    inset: 5px;
+    background: #fff;
+    border-radius: 35px;
+    transition: 0.5s;
+}
+
+.cards_card_translation:hover {
+    transform: translate(40px, -40px);
+    box-shadow: -30px 30px 50px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: solid 1px grey;
+}
+
+.cards_card_title {
+    color: black;
+    font-size: 18px;
+}
+
+.cards_card_img {}
+
+.cards_card_description {
+    padding: 0 20px 0;
+}
+
+.arenda_trust_us{
+
+}
+
+.qb {
+    background-color: coral;
+    width: 50px;
+    height: 50px;
+    border: black solid 1px;
+}
